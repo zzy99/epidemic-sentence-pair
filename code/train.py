@@ -4,7 +4,7 @@ import os
 from keras.layers import *
 from keras.models import Model
 from keras.callbacks import ModelCheckpoint, EarlyStopping
-from bert4keras.backend import keras, K
+from bert4keras.backend import keras, K, search_layer
 from bert4keras.bert import build_bert_model
 from bert4keras.tokenizer import Tokenizer
 from bert4keras.optimizers import Adam
